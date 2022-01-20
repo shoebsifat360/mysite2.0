@@ -444,6 +444,7 @@ footer .footer-wraper {}
 
 footer .footer-wraper ul {
 	display: flex;
+	flex-flow: wrap;
 	justify-content: center;
 	align-items: center;
 	gap: 20px;

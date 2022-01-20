@@ -443,12 +443,12 @@ footer {
 footer .footer-wraper {}
 
 footer .footer-wraper ul {
-	display: flex;
-	flex-flow: wrap;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
-	list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    flex-flow: wrap;
 }
 
 footer .footer-wraper ul li {}

@@ -304,10 +304,10 @@ header .container .banner h2 {
 		background-position: 0 -4em;
 	}
 	73% {
-		background-position: 0 -154PX;
+		background-position: 0 9.625em;
 	}
 	100% {
-		background-position: 0 -154PX;
+		background-position: 0 9.625em;
 	}
 }
 

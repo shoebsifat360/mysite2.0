@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Merriweather:ital@1&family=Montserrat&family=Sacramento&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=The+Nautigal:wght@400;700&display=swap');
 
-
 /* font-family: 'Cookie', cursive;
 font-family: 'Merriweather', serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Sacramento', cursive;
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'The Nautigal', cursive; */
-
 
 * {
 	margin: 0;
@@ -35,9 +33,9 @@ h3 {
 }
 
 .container {
-	max-width: 1140px;
+	max-width: 71.25em;
 	margin: 0 auto;
-	padding: 0px 10px;
+	padding: 0em 0.625em;
 	position: relative;
 }
 
@@ -56,7 +54,7 @@ header .container nav {
 	flex-flow: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 0px;
+	padding: 0.625em 0em;
 	position: sticky;
 	top: 0;
 }
@@ -68,7 +66,7 @@ header .container nav .logo {
 header .container nav .logo a {}
 
 header .container nav .logo a img {
-	height: 77px;
+	height: 4.8125em;
 	width: auto;
 	border-radius: 50%;
 }
@@ -78,7 +76,7 @@ header .container nav .menu {}
 header .container nav .menu ul {
 	display: flex;
 	list-style: none;
-	gap: 0 30px;
+	gap: 0 1.875em;
 }
 
 header .container nav .menu ul li {}
@@ -100,8 +98,13 @@ header .container nav .menu ul li a::after {
 	left: -5%;
 }
 
+
 /********menu_____hover********/
+
+
 /********hover********/
+
+
 /********hover********/
 
 header .container nav .menu ul li a:hover {
@@ -114,27 +117,40 @@ header .container nav .menu ul li a:hover::after {
 	transition: 0.5s;
 }
 
+
 /* *************Banner_area********************* */
+
+
 /* *************Banner_area********************* */
+
+
 /* *************Banner_area********************* */
+
 header .container .banner {
 	display: flex;
 	justify-content: center;
 	flex-flow: column wrap;
 	align-items: center;
-	padding: 30px 0% 250px;
+	padding: 1.875em 0% 15.625em;
 	color: #4ab19a;
 }
 
 header .container .banner h1 {
 	font-size: 600%;
 }
+
+
 /***** banner h1 animation end************ */
+
+
 /***** banner h1 animation end************ */
+
+
 /***** banner h1 animation end************ */
+
 header .container .banner h2 {
 	font-size: 180%;
-	margin: 0 0 50px;
+	margin: 0 0 3.125em;
 }
 
 .about {
@@ -146,11 +162,11 @@ header .container .banner h2 {
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
-	padding: 100px 0;
+	padding: 6.25em 0;
 }
 
 .about .about-wraper img {
-	height: 150px;
+	height: 9.375em;
 	width: auto;
 	border-radius: 50%;
 }
@@ -162,7 +178,7 @@ header .container .banner h2 {
 }
 
 .about .about-wraper p {
-	max-width: 460px;
+	max-width: 28.75em;
 	font-size: 1.5em;
 	margin: auto;
 	text-align: center;
@@ -173,7 +189,7 @@ header .container .banner h2 {
 .work {}
 
 .work .work-wraper {
-	padding: 84px 0px 0;
+	padding: 5.25em 0em 0;
 }
 
 .work .work-wraper h2 {
@@ -181,15 +197,15 @@ header .container .banner h2 {
 	justify-content: center;
 	font-size: 3.8em;
 	color: #1e836c;
-	margin-bottom: 50px;
+	margin-bottom: 3.125em;
 }
 
 .work .work-wraper .work-box {
 	display: flex;
 	justify-content: space-around;
-	gap: 30px 20px;
+	gap: 1.875em 1.25em;
 	flex-flow: wrap;
-	margin: 100px 0px;
+	margin: 6.25em 0em;
 }
 
 .work .work-wraper .work-box .img {
@@ -197,17 +213,17 @@ header .container .banner h2 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 0 100px;
+	gap: 0 6.25em;
 }
 
 .work .work-wraper .work-box .img img {
-	width: 150px;
+	width: 9.375em;
 }
 
 .work .work-wraper .work-box .sprit {
-	height: 77px;
-	width: 77px;
-	border: 1px solid #1e836c;
+	height: 4.8125em;
+	width: 4.8125em;
+	border: 0.0625em solid #1e836c;
 	border-radius: 50%;
 	position: relative;
 	background-image: url(../img/design-icons-vert@2x.png);
@@ -218,7 +234,7 @@ header .container .banner h2 {
 }
 
 .work .work-wraper .work-text {
-	padding: 0 10px;
+	padding: 0 0.625em;
 }
 
 .work .work-wraper .work-text h3 {
@@ -230,7 +246,7 @@ header .container .banner h2 {
 .work .work-wraper .work-text p {
 	font-size: 1.5em;
 	color: #6bd2bb;
-	max-width: 537px;
+	max-width: 33.5625em;
 	line-height: 1.5;
 }
 
@@ -250,9 +266,15 @@ header .container .banner h2 {
 	background-image: url(../img/dev-icons-vert@2x.png);
 }
 
+
 /* sprit animation---start****************** */
+
+
 /* sprit animation---start****************** */
+
+
 /* sprit animation---start****************** */
+
 .sprit {
 	animation-name: sprit;
 	animation-duration: 10s;
@@ -270,25 +292,20 @@ header .container .banner h2 {
 
 @keyframes sprit {
 	5% {
-		background-position: 0 0px;
+		background-position: 0 0em;
 	}
-
 	35% {
-		background-position: 0 0px;
+		background-position: 0 0em;
 	}
-
 	40% {
-		background-position: 0 -64px;
+		background-position: 0 -4em;
 	}
-
 	68% {
-		background-position: 0 -64px;
+		background-position: 0 -4em;
 	}
-
 	73% {
 		background-position: 0 -154PX;
 	}
-
 	100% {
 		background-position: 0 -154PX;
 	}
@@ -296,10 +313,18 @@ header .container .banner h2 {
 
 .work .work-wraper .dev-work-box .dev-work-text {}
 
+
 /********** help_area********************* */
+
+
 /********** help_area********************* */
+
+
 /********** help_area********************* */
+
+
 /********** help_area********************* */
+
 .help {
 	background: #4ab19a;
 }
@@ -309,7 +334,7 @@ header .container .banner h2 {
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
-	padding: 50px 0;
+	padding: 3.125em 0;
 }
 
 .help .help-wraper h2 {
@@ -328,9 +353,9 @@ header .container .banner h2 {
 
 .help .help-wraper p {
 	font-size: 1.5em;
-	padding: 10px 0 20px;
+	padding: 0.625em 0 1.25em;
 	text-align: center;
-	max-width: 850px;
+	max-width: 53.125em;
 	line-height: 1.5;
 	color: #fff;
 }
@@ -342,29 +367,38 @@ header .container .banner h2 {
 	font-size: 1.5em;
 	background: #eca042;
 	color: #fff;
-	padding: 10px 20px;
-	border-radius: 5px;
-	margin: 20px 0px;
+	padding: 0.625em 1.25em;
+	border-radius: 0.3125em;
+	margin: 1.25em 0em;
 	display: inline-block;
 }
 
 .help .help-wraper .btn a i {
-	margin-right: 5px;
+	margin-right: 0.3125em;
 }
-.help .help-wraper .btn a:hover{
+
+.help .help-wraper .btn a:hover {
 	background: #ff940f;
 	transition: 0.5s;
 	transform: scale(1.2);
 }
 
+
 /************** contack_area*********** */
+
+
 /************** contack_area*********** */
+
+
 /************** contack_area*********** */
+
+
 /************** contack_area*********** */
+
 .contact {}
 
 .contact .contact-wraper {
-	padding: 100px 10px;
+	padding: 6.25em 0.625em;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -372,12 +406,12 @@ header .container .banner h2 {
 }
 
 .contact .contact-wraper .map {
-	flex-basis: 470px;
+	flex-basis: 29.375em;
 }
 
 .contact .contact-wraper .map iframe {
 	width: 100%;
-	height: 400px;
+	height: 25em;
 }
 
 .contact .contact-wraper .form {
@@ -391,22 +425,22 @@ header .container .banner h2 {
 }
 
 .contact .contact-wraper .form form input {
-	padding: 10px;
-	margin: 10px;
-	border: 2px solid #4ab19a;
-	border-radius: 5px;
+	padding: 0.625em;
+	margin: 0.625em;
+	border: 0.125em solid #4ab19a;
+	border-radius: 0.3125em;
 	color: #c26f08 !important;
-	max-width: 600px;
+	max-width: 37.5em;
 	outline-color: #eca042;
 }
 
 .contact .contact-wraper .form form .textarea {
-	padding: 10px;
-	margin: 10px;
-	border: 2px solid #4ab19a;
-	border-radius: 5px;
+	padding: 0.625em;
+	margin: 0.625em;
+	border: 0.125em solid #4ab19a;
+	border-radius: 0.3125em;
 	color: #c26f08 !important;
-	max-width: 600px;
+	max-width: 37.5em;
 	outline-color: #eca042;
 }
 
@@ -415,40 +449,51 @@ header .container .banner h2 {
 	font-size: 1.5em;
 	background: #4ab19a;
 	color: #fff;
-	padding: 10px 20px;
-	border-radius: 5px;
-	margin: 20px 10px;
+	padding: 0.625em 1.25em;
+	border-radius: 0.3125em;
+	margin: 1.25em 0.625em;
 	display: inline-block;
-	width: 200px;
-	border: 1px solid;
+	width: 12.5em;
+	border: 0.0625em solid;
 	cursor: pointer;
 }
+
+
 /* hover_button*********** */
-.contact .contact-wraper .form form button:hover{
+
+.contact .contact-wraper .form form button:hover {
 	background: #ff940f;
 	transition: 0.5s;
 	transform: scaleX(1.2);
 	transform-origin: left center;
 }
 
+
 /* fotter_area******************************** */
+
+
 /* fotter_area******************************** */
+
+
 /* fotter_area******************************** */
+
+
 /* fotter_area******************************** */
+
 footer {
-	padding: 50px;
+	padding: 3.125em;
 	background: #c5ded7;
 }
 
 footer .footer-wraper {}
 
 footer .footer-wraper ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    list-style: none;
-    flex-flow: wrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.25em;
+	list-style: none;
+	flex-flow: wrap;
 }
 
 footer .footer-wraper ul li {}
@@ -456,7 +501,7 @@ footer .footer-wraper ul li {}
 footer .footer-wraper ul li a {
 	color: #4ab19a;
 	font-size: 3.8em;
-	margin: 20px;
+	margin: 1.25em;
 }
 
 footer .footer-wraper ul li a i {}
@@ -465,39 +510,31 @@ footer .footer-wraper p {
 	color: #0f7b62;
 	font-size: 1em;
 	text-align: center;
-	margin: 20px 0;
+	margin: 1.25em 0;
 }
 
 footer .footer-wraper p a {
 	color: #0f7b62;
 }
-.top{
+
+.top {
 	position: fixed;
 	bottom: 0;
 	right: 1%;
 	font-size: 3.8em;
 	color: #ff940f;
 }
-.top i{}
 
+.top i {}
 
-
-
-
-
-
-
-.rcloud{
+.rcloud {
 	position: absolute;
-    top: 40%;
-    right: 0%;
+	top: 40%;
+	right: 0%;
 }
 
-.lcloud{
-
-position: absolute;
-
-top: 52%;
-
-left: 0%;
+.lcloud {
+	position: absolute;
+	top: 52%;
+	left: 0%;
 }
